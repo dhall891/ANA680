@@ -4,7 +4,7 @@ This repository contains assignments, code, and supporting materials for the ANA
 
 ## Contents
 - **Assignment 2:** Breast Cancer Classification
- - Implemented eight classification models on the UCI Breast Cancer Wisconsin (Original) dataset to predict whether a tumor is benign (2) or malignant (4). Each model was trained with a 75/25 train–test split, and accuracy plus confusion matrix were recorded. Models included: Logistic Regression, KNN (k=5), Linear SVM, RBF SVM, Naïve Bayes, Decision Tree, Random Forest (n=10), and XGBoost.
+  - Implemented eight classification models on the UCI Breast Cancer Wisconsin (Original) dataset to predict whether a tumor is benign (2) or malignant (4). Each model was trained with a 75/25 train–test split, and accuracy plus confusion matrix were recorded. Models included: Logistic Regression, KNN (k=5), Linear SVM, RBF SVM, Naïve Bayes, Decision Tree, Random Forest (n=10), and XGBoost.
 
 
 - **Assignment 3:** Three-Layer ANN Classifier for Bank Churn Prediction  
