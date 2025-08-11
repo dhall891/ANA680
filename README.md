@@ -10,7 +10,7 @@ This repository contains assignments, code, and supporting materials for the ANA
 
 ## Course Info
 - **Course:** ANA 680 — Machine Learning Deployment
-- **Instructor:** [Your Instructor Name]
+- **Institution:** National University
 - **Student:** David Hall
 
 ---
