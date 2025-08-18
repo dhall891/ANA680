@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template, request
 import pickle
 import numpy as np
@@ -35,12 +34,9 @@ def predict():
         # Convert to numpy array and reshape for model
         features_array = np.array(features).reshape(1, -1)
 
-        # Get prediction (dataset labels: 2 = Benign, 4 = Malignant)        
-prediction = model.predict(features_array)[0]        
-
-# Map prediction to lab        el
-result = "Malignant" if prediction == 4 else "Benign"
-
+        # Get prediction (dataset labels: 2 = Benign, 4 = Malignant)
+        prediction = model.predict(features_array)[0]
+        result = "Malignant" if prediction == 4 else "Benign"
 
         return render_template("index.html", prediction=result)
 
