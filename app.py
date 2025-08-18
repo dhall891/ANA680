@@ -35,11 +35,12 @@ def predict():
         # Convert to numpy array and reshape for model
         features_array = np.array(features).reshape(1, -1)
 
-        # Get prediction (0 = benign, 1 = malignant)
-        prediction = model.predict(features_array)[0]
+        # Get prediction (dataset labels: 2 = Benign, 4 = Malignant)        
+prediction = model.predict(features_array)[0]        
+
+# Map prediction to lab        el
+result = "Malignant" if prediction == 4 else "Benign"
 
-        # Map prediction to label
-        result = "Malignant" if prediction == 1 else "Benign"
 
         return render_template("index.html", prediction=result)
 
